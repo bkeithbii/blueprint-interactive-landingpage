@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Header  */
+header {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: #38a6e8;
+  height: 80px;
+}
+header .row {
+  align-items: center;
+}
+header .logo-pic1 img {
+  flex: 0 0 18%;
+  max-width: 18%;
+  margin-left: 160px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+header .navbar {
+  margin-left: 125px;
+}
+header .navbar i {
+  height: 25px;
+  width: 25px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+}
+header .navbar .donate-butt {
+  display: inline-block;
+  margin-left: 7px;
+  border-radius: 4px;
+  padding: 13px 28px;
+  background-color: #f65151;
+}
+header .navbar img {
+  height: 13px;
+  width: 13px;
+  color: #ffffff;
+}
+header .navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Main */
+.main {
+  height: 550px;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+.main .main-content {
+  position: relative;
+  padding: 100px 100px;
+}
+.main .headshot img {
+  /* flex: 0 0 40%;
+  max-width: 40%; */
+  height: 700px;
+  margin-top: -330px;
+  padding-bottom: 200px;
+}
+.main .slogan {
+  margin-left: 450px;
+  padding-top: 50px;
+}
+.main .slogan h1 {
+  color: #0e75b0;
+  text-align: left;
+  font-size: 40px;
+}
+.main .slogan h1 span {
+  color: #38a6e8;
+}
+.main .form {
+  margin-left: 450px;
+  margin-top: 20px;
+  padding: 12px;
+  border-radius: 1px;
+  background-color: #ffffffe8;
+}
+.main .form h3 {
+  color: #38a6e8;
+}
+.main .form p {
+  font-size: 12px;
+}
+.main .form input {
+  padding: 8px;
+}
+.main .form a {
+  text-decoration: none;
+  color: white;
+  background-color: #ea8149;
+  margin-left: 8px;
+  padding: 7px 16px;
+}
+.main .form a span {
+  font-size: 7px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: #0e75b0;
+  height: 345px;
+  display: flex;
+}
+footer .container {
+  flex-direction: column;
+  align-items: center;
+}
+footer .logo-pic2 img {
+  flex: 0 0 25%;
+  max-width: 25%;
+  margin-left: 90%;
+  margin-top: -15%;
+}
+.text p {
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  margin-left: -480px;
+}
+footer .empty-box {
+  border: 1px solid white;
+  margin-left: -100px;
+  margin-right: 380px;
+  padding: 8px 100px;
+}
